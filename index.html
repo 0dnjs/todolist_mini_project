@@ -9,6 +9,13 @@
 </head>
 <body>
     <div class="main-wrap">
+        <aside class="sidebar">
+            <button class="sidebar-toggle-button" onclick="sidebarToggleButtonOnClickHandle()">▶</button>
+            <ul class="sidebar-menu-list">
+                <li class="menu-items isMenuSelected" onclick="sidebarMenuOnClickHandle(this);">HOME</li>
+                <li class="menu-items" onclick="sidebarMenuOnClickHandle(this);">TODOLIST</li>
+            </ul>
+        </aside>
         <div class="main-container">
                 <img src="./images/wave.jpg" alt="" class="main-background">
             <h1><span>what's your plan?</span></h1>
